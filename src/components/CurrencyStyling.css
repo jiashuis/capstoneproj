@@ -1,0 +1,47 @@
+.container {
+    display: flex; /*put the things side by side */
+justify-content: center; /* horizontally center of page */
+column-gap: 10px; /*space in between */
+align-items: center; /* reduced the height to standard */
+}
+#input{
+    display: flex;
+}
+#currencySelect {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(234 196 106);
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.currency-converter-container {
+ /*put the things side by side */
+    justify-content: center; /* horizontally center of page */
+    column-gap: 10px; /*space in between */
+    align-items: center; /* reduced the height to standard */
+}
+
+.converter-input {
+    height: 50px;
+    width: 250px;
+}
+.converter-input2 {
+    height: 50px;
+    width: 250px;
+}
+.converter-input3 {
+    height: 50px;
+    width: 250px;
+}
+
+.converted-amount{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttonAdd{
+    background-color:blue;
+    color:white;
+}
